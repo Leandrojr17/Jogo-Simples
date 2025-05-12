@@ -14,9 +14,23 @@
     background: linear-gradient(#87ceeb , #E0f6ff);
 }
 
+.score-display{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
 .clouds{
     width: 550px;
     position: absolute;
+    top: 50px;
     animation: clouds-animation 20s infinite linear;
 }
 
